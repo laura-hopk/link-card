@@ -1,7 +1,43 @@
 html {
   box-sizing: border-box;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+div {
+  display: inline-block;
+  text-align: left;
+  background-color: #dcd4cd;
+  padding: 1rem;
+  margin: 0;
+  max-width: inherit;
+}
+
+.link-card {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Dosis, sans-serif;
+  color: #512200;
+  font-size: 1.5rem;
+  font-style: 600;
+}
+
+p {
+  font-family: Georgia, serif;
+}
+
+ul {
+  font-family: Georgia, serif;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  font-family: Dosis, sans-serif;
 }
