@@ -1,43 +1,78 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-div {
+.link-card {
   display: inline-block;
   text-align: left;
   background-color: #dcd4cd;
   padding: 1rem;
   margin: 0;
   max-width: inherit;
-}
-
-.link-card {
+  border-radius: 3px;
+  border: #9a816d 3px solid;
   text-decoration: none;
 }
 
-h1 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   color: #512200;
   font-size: 1.5rem;
-  font-style: 600;
+  font-weight: 600;
+  margin-top: 0;
+  text-decoration: none;
 }
 
-p {
+.txt {
   font-family: Georgia, serif;
+  color: #512200;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-bottom: 0;
 }
 
-ul {
+.link-card dl {
   font-family: Georgia, serif;
+  font-size: .875rem;
   list-style-type: none;
   padding: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #512200;
+  border-top: #9a816d 2px solid;
+  border-bottom: #9a816d 2px solid;
 }
 
-footer {
+.link-card dt {
+  display: inline-block;
+  min-width: 8em;
+}
+
+.link-card dd {
+  display: inline-block;
+  margin: 0;
+  font-style: italic;
+}
+
+.btn {
+  display: block;
   text-align: center;
   font-family: Dosis, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: #785439;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
 }
